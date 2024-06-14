@@ -1,0 +1,14 @@
+[
+    {
+      "name": "hello-world-container",
+      "image": "datta2002/hello-world-nodejs",
+      "essential": true,
+      "portMappings": [
+        {
+          "containerPort": 3000,
+          "hostPort": 3000
+        }
+      ]
+    }
+  ]
+  
